@@ -140,23 +140,6 @@
   </div>
 </section>
 
-<!-- Trust Note -->
-<section class="section" style="padding: 30px 0;">
-  <div class="container reveal">
-    <div style="background:linear-gradient(135deg,#f0f4f8,#e8edf5);border-radius:16px;padding:40px;text-align:center;border:1px solid rgba(10,36,99,.08);">
-      <div style="font-size:1rem;font-weight:700;color:var(--accent);margin-bottom:8px;" data-i18n="trust-title">🔹 Four Specialized Divisions, One Trusted Partner</div>
-      <p style="font-size:1.1rem;color:var(--text);max-width:800px;margin:0 auto;line-height:1.8;" data-i18n="trust-desc">
-        Each of our four product lines operates with <strong>dedicated sourcing, QC, and sales teams</strong>. 
-        Whether you need electrical insulators, LCD displays, piston rings, or ceramic tableware — 
-        you get the same reliability, competitive pricing, and professional service.
-      </p>
-      <span style="display:block;margin-top:12px;color:var(--text-light);font-size:.95rem;" data-i18n="trust-sub">
-        📩 Request segmented catalogs — we'll only show you what matters to your business.
-      </span>
-    </div>
-  </div>
-</section>
-
 <!-- Products Overview -->
 <section class="section" id="products">
   <div class="container">

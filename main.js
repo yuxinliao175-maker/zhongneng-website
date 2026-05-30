@@ -194,6 +194,9 @@ const translations = {
     'tag-oem': 'OEM代工', 'tag-50cc': '50cc-1000cc', 'tag-chrome': '镀铬',
     'tag-porcelain': '瓷质', 'tag-custom': '定制设计', 'tag-horeca': '酒店餐饮',
 
+    'trust-title': '四大专业部门，一个值得信赖的伙伴',
+    'trust-desc': '我们的四大产品线各有独立的采购、质检和销售团队。无论您需要绝缘子、液晶屏、活塞环还是日用瓷——都能获得同样的可靠性、竞争力和专业服务。',
+    'trust-sub': '📩 索取分类产品目录 — 我们只给您看相关的产品线。',
     'learn-more': '了解更多 →',
 
     'about-overline': '关于我们',
