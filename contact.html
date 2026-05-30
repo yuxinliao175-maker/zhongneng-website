@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Liling Zhongneng Trading Co., Ltd.</title>
+  <meta name="description" content="Contact Liling Zhongneng Trading for quotes, samples, and inquiries. WhatsApp: +86 137 1489 8482. Email: yuxinliao175@gmail.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <a href="index.html" class="logo"><div class="logo-icon">ZN</div><span>ZHONGNENG</span></a>
+    <div class="nav-links">
+      <a href="index.html" data-i18n="nav-home">Home</a>
+      <a href="products-insulators.html" data-i18n="nav-insulators">Insulators</a>
+      <a href="products-lcd.html" data-i18n="nav-lcd">LCD Displays</a>
+      <a href="products-piston-rings.html" data-i18n="nav-piston">Piston Rings</a>
+      <a href="products-ceramics.html" data-i18n="nav-ceramic">Ceramic Tableware</a>
+      <a href="about.html" data-i18n="nav-about">About Us</a>
+      <a href="contact.html" class="active" data-i18n="nav-contact">Contact</a>
+      <div class="lang-switch"><button class="lang-btn active" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">中文</button></div>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1 data-i18n="contact-hero-title">Contact Us</h1>
+    <p data-i18n="contact-hero-sub">We'd love to hear from you. Get in touch for quotes, samples, or any questions.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- Contact Info Card -->
+      <div class="contact-info-card reveal-left">
+        <h3 data-i18n="contact-info-title">Get In Touch</h3>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">👤</div>
+          <div><h4>Contact Person</h4><p data-i18n="contact-name">Liao Yuxin</p></div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">💬</div>
+          <div><h4>WhatsApp</h4><p><a href="https://wa.me/8613714898482" style="color:#fff;text-decoration:underline;">+86 137 1489 8482</a></p></div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📞</div>
+          <div><h4>Phone</h4><p>+86 182 7324 3295</p></div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">✉️</div>
+          <div><h4>Email</h4><p>yuxinliao175@gmail.com<br>liaoyux1688@hotmail.com</p></div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📍</div>
+          <div><h4>Address</h4><p data-i18n="footer-address">No.74 Changqing Street, Liling City, Hunan, China</p></div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">🕐</div>
+          <div><h4>Business Hours</h4><p>Mon – Sat: 9:00 AM – 6:00 PM (CST/UTC+8)<br>WhatsApp: 24/7</p></div>
+        </div>
+      </div>
+
+      <!-- Inquiry Form -->
+      <div class="inquiry-form reveal-right">
+        <h3 data-i18n="contact-form-title">Send an Inquiry</h3>
+        <form id="inquiryForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="form-name">Your Name *</label>
+              <input type="text" name="name" required data-i18n-placeholder="form-ph-name" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label data-i18n="form-email">Email Address *</label>
+              <input type="email" name="email" required data-i18n-placeholder="form-ph-email" placeholder="john@company.com">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="form-phone">Phone / WhatsApp</label>
+              <input type="text" name="phone" data-i18n-placeholder="form-ph-phone" placeholder="+1 234 567 890">
+            </div>
+            <div class="form-group">
+              <label data-i18n="form-company">Company Name</label>
+              <input type="text" name="company" data-i18n-placeholder="form-ph-company" placeholder="Your Company Ltd.">
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-i18n="form-product">Product Interest *</label>
+            <select name="product" required>
+              <option value="" data-i18n="form-select">-- Select a category --</option>
+              <option value="Electrical Insulators" data-i18n="form-opt1">Electrical Insulators</option>
+              <option value="LCD Displays" data-i18n="form-opt2">LCD Displays</option>
+              <option value="Motorcycle Piston Rings" data-i18n="form-opt3">Motorcycle Piston Rings</option>
+              <option value="Ceramic Tableware" data-i18n="form-opt4">Ceramic Tableware</option>
+              <option value="Multiple / Other" data-i18n="form-opt5">Multiple / Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label data-i18n="form-message">Your Message *</label>
+            <textarea name="message" required data-i18n-placeholder="form-ph-msg" placeholder="Tell us about your requirements, quantities, specifications..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;" data-i18n="form-submit">Send Inquiry</button>
+          <p style="text-align:center;margin-top:12px;font-size:.85rem;color:var(--text-light);">
+            Or chat directly on <a href="https://wa.me/8613714898482" target="_blank" style="color:var(--accent);font-weight:600;">WhatsApp</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Contact Options -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Prefer a Quick Chat?</h2>
+      <p>Choose the channel that works best for you</p>
+    </div>
+    <div class="features-grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));">
+      <div class="feature-card reveal">
+        <div class="feature-icon" style="background:#25d366;">💬</div>
+        <h3>WhatsApp</h3>
+        <p>Fastest response. Send photos, specs, or voice messages.</p>
+        <a href="https://wa.me/8613714898482" target="_blank" class="btn btn-primary" style="margin-top:16px;font-size:.85rem;padding:10px 24px;">Chat Now</a>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon" style="background:linear-gradient(135deg,#ea4335,#fbbc05);">✉️</div>
+        <h3>Email</h3>
+        <p>Send detailed inquiries with attachments and drawings.</p>
+        <a href="mailto:yuxinliao175@gmail.com" class="btn btn-primary" style="margin-top:16px;font-size:.85rem;padding:10px 24px;">Send Email</a>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">📞</div>
+        <h3>Phone Call</h3>
+        <p>Call us directly for urgent matters.</p>
+        <a href="tel:+8618273243295" class="btn btn-primary" style="margin-top:16px;font-size:.85rem;padding:10px 24px;">Call Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><h3>ZHONGNENG TRADING</h3><p data-i18n="footer-desc">Professional export enterprise specializing in electrical insulators, LCD displays, motorcycle parts, and ceramic tableware.</p></div>
+      <div><h4 data-i18n="footer-products">Products</h4><div class="footer-links"><a href="products-insulators.html">Insulators</a><a href="products-lcd.html">LCD Displays</a><a href="products-piston-rings.html">Piston Rings</a><a href="products-ceramics.html">Ceramic Tableware</a></div></div>
+      <div><h4 data-i18n="footer-company">Company</h4><div class="footer-links"><a href="about.html">About Us</a><a href="contact.html">Contact Us</a></div></div>
+      <div><h4 data-i18n="footer-contact-info">Contact Info</h4><div class="footer-contact-item"><span class="footer-contact-icon">📍</span><span data-i18n="footer-address">No.74 Changqing Street, Liling City, Hunan, China</span></div><div class="footer-contact-item"><span class="footer-contact-icon">📞</span><span>+86 182 7324 3295</span></div><div class="footer-contact-item"><span class="footer-contact-icon">✉️</span><span>yuxinliao175@gmail.com</span></div></div>
+    </div>
+    <div class="footer-bottom"><span data-i18n="footer-rights">© 2024 Liling Zhongneng Trading Co., Ltd. All rights reserved.</span></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/8613714898482" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">💬</a>
+<script src="main.js"></script>
+</body>
+</html>
